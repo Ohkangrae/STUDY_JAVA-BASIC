@@ -15,24 +15,52 @@ public class Javahomework3 {
 //		int min = a;
 //		if(b<min)min = b;
 //		if(c<min)min = c;
-//		return min;
-		
-		
+//		
+//		System.out.println("최솟값은"+min+"입니다.");
 		
 		
 		
 		
 		//3-21
+//		Scanner cs = new Scanner(System.in);
+//		System.out.println("몇 월입니까?");
+//		int r = cs.nextInt();
+//		
+//		if(r>=3&r<=5) {
+//			System.out.println("봄입니다.");
+//		}
+//		else if(r>=6&r<=8) {
+//			System.out.println("여름입니다.");
+//		}
+//		else if(r>=9&r<=11) {
+//			System.out.println("가을입니다.");
+//		}
+//		else if(r==12&r==1&r==2) {
+//			System.out.println("겨울입니다.");
+//		}
+//		else {
+//			System.out.println("그런 월은 없습니다.");
+//		}
+		
 		Scanner cs = new Scanner(System.in);
-		int r = cs.nextInt();
 		System.out.println("몇 월입니까?");
+		int month = cs.nextInt();
 		
-		if()
-		
-		
-		
-		
-		
+		switch(month) {
+		case 3:
+		case 4:
+		case 5: System.out.println("봄");	break;
+		case 6:
+		case 7:
+		case 8: System.out.println("여름");	break;
+		case 9:
+		case 10:
+		case 11: System.out.println("가을");	break;
+		case 12:
+		case 1:
+		case 2: System.out.println("겨울");	break;
+		default: System.out.println("그런 월은 없습니다.");	break;
+		}
 		
 		
 		
